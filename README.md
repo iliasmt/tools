@@ -25,9 +25,9 @@ ipconfig, netsh, mac address, route table, hosts file
 USE WITH CAUTION  
 this script RESETS - DELETES network settings  
 requires administrative rights  
-restart after computer after running the script  
+restart computer after running the script  
 
 ###### get-winpc-cpu-arch:
 this tool features 2 different ways to define the architecture of the running system  
-1st way by reading the system variable  
+1st way by reading a system variable  
 2nd way by querying a registry valuee  
