@@ -7,7 +7,7 @@ NC='\e[0m'
 #example dm=google.gr
 dm=
 dip=$(host $dm |awk {'print $4'})
-ex=$(curl -s ipinfo.io/ip)
+ex=$(curl -s ipinfo.io/ip || curl -s ifconfig.me/ip)
 echo -e " ┌──────────────────────────────────────────────────────────────┐"
 echo -e " │  $GREEN Domain$NC        : $BLUE$dm$NC     	       		│"
 echo -e " │  $GREEN EXT IP$NC        : $BLUE$ex$NC				│"
