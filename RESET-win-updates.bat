@@ -1,8 +1,6 @@
 @echo off
 title .:: RESET windows updates ::.
 ECHO.
-set res=false
-ECHO.
 ECHO This will delete old and pending files in the windows update directories
 ECHO will restart some services
 ECHO.
